@@ -1,0 +1,91 @@
+{
+  "meta": { "name": "电商产品拍摄服务", "platforms": ["jd"] },
+
+  "product": {
+    "positioning": "专业产品摄影，专注产品质感",
+    "audience": "电商商家/品牌方",
+    "coreScenes": ["美妆护肤", "服装", "腕表饰品", "美食饮品"],
+    "sellingPoints": [
+      { "id": "sp1", "feature": "场景搭建", "benefit": "不同品类配不同情境，第一眼对上目标客群" },
+      { "id": "sp2", "feature": "精细布光", "benefit": "金属、玻璃、织物各得其所，光把质感拍出来" },
+      { "id": "sp3", "feature": "细节刻画", "benefit": "微距之下经得起放大，近看是转化的关键" },
+      { "id": "sp4", "feature": "后期精修", "benefit": "除尘、调色、构图校正，交付即可上架" }
+    ]
+  },
+
+  "content": {
+    "valuePromise": "电商产品拍摄，让产品更出彩",
+    "painLine": "场景搭建，精细布光、细节刻画，后期精修",
+    "screens": [
+      { "kind": "hero", "id": "hero", "copy": { "title": "电商产品拍摄\n让产品更出彩", "sub": "专业产品摄影 · 专注产品质感" } },
+      { "kind": "pain", "id": "pain", "copy": { "title": "场景搭建，精细布光、\n细节刻画，后期精修", "body": "为你的产品打造更具吸引力的视觉呈现" } },
+      { "kind": "sellingpoint", "id": "sp1", "ref": "sp1", "copy": { "title": "场景搭建", "sub": "不同品类配不同情境，第一眼对上目标客群", "overlay": true, "pos": "bl", "h": 480, "focus": "50% 38%" } },
+      { "kind": "sellingpoint", "id": "sp2", "ref": "sp2", "copy": { "title": "精细布光", "sub": "金属、玻璃、织物各得其所，光把质感拍出来", "overlay": true, "pos": "bl", "h": 480, "focus": "50% 45%" } },
+      { "kind": "sellingpoint", "id": "sp3", "ref": "sp3", "copy": { "title": "细节刻画", "sub": "微距之下经得起放大，近看是转化的关键", "overlay": true, "pos": "bl", "h": 480, "focus": "50% 45%" } },
+      { "kind": "sellingpoint", "id": "sp4", "ref": "sp4", "copy": { "title": "后期精修", "sub": "除尘、调色、构图校正，交付即可上架", "overlay": true, "pos": "bl", "h": 480, "focus": "50% 42%" } },
+      { "kind": "scene", "id": "scene", "copy": { "title": "常拍品类", "items": [
+        { "name": "美妆个护", "note": "瓶身 · 质感" },
+        { "name": "日用", "note": "场景 · 生活感" },
+        { "name": "服装户外", "note": "平铺 · 上身" },
+        { "name": "腕表珠宝", "note": "微距 · 光泽" },
+        { "name": "鞋靴", "note": "细节 · 材质" },
+        { "name": "美食饮品", "note": "氛围 · 烟火气" } ] } },
+      { "kind": "gallery", "id": "gallery", "copy": { "kicker": "WORKS", "title": "作品选", "layout": "wall", "rows": [
+        { "cat": "美妆个护" },
+        ["works/image22.jpeg", "works/image17.png"],
+        ["works/image6.png", "works/image24.png"],
+        { "src": "works/image5.png", "h": 420 },
+        { "cat": "日用" },
+        ["works/image23.jpeg", "works/image25.jpeg"],
+        ["works/image1.png", "works/image3.jpeg"],
+        { "cat": "服装户外" },
+        { "src": "works/image9.png" },
+        ["works/image11.png", "works/image13.png"],
+        ["works/image26.jpeg", "works/image27.jpeg"],
+        ["works/image12.png", "works/image14.png"],
+        { "src": "works/image30.jpeg", "h": 380, "pos": "50% 22%" },
+        { "cat": "腕表珠宝" },
+        ["works/image18.jpeg", "works/image20.jpeg"],
+        ["works/image33.jpeg", "works/image4.jpeg"],
+        ["works/image28.jpeg", "works/image29.jpeg"],
+        { "cat": "鞋靴" },
+        ["works/image7.png", "works/image8.png"],
+        { "cat": "美食饮品" },
+        ["works/image32.png", "works/image34.png"],
+        { "src": "works/image36.png", "h": 380 } ] } },
+      { "kind": "process", "id": "process", "copy": { "title": "服务流程", "items": ["沟通方案", "预约档期", "拍摄执行", "后期美化"], "cols": 2 } },
+      { "kind": "close", "id": "close", "copy": { "title": "让产品更出彩，从一组好图开始", "sub": "联系方式：待补充（勿虚构）" } }
+    ]
+  },
+
+  "facts": {
+    "specs": {},
+    "certs": [],
+    "note": "套餐价格、交付周期、保障条款未提供；建议后续补 specs 屏。"
+  },
+
+  "style": {
+    "style": "minimal",
+    "palette": { "bg": "#16151A", "ink": "#EAE5DB", "accent": "#C9A15E", "card": "#211F26" },
+    "fontMood": "serif",
+    "knobs": { "title_px": 80 }
+  },
+
+  "assets": {
+    "sp1": { "src": "works/image15.png" },
+    "sp2": { "src": "works/image2.png" },
+    "sp3": { "src": "works/image35.png" },
+    "sp4": { "src": "works/image21.jpeg" },
+    "scene": { "src": ["works/image16.png", "works/image23.jpeg", "works/image10.png", "works/image19.jpeg", "works/image7.png", "works/image31.jpeg"] }
+  },
+
+  "openQuestions": [
+    "品牌名/联系方式未提供——收口屏为占位，hero 无徽章",
+    "平台未指定，按 750 商详规格出图（京东/淘宝通用）",
+    "四个卖点屏副题为代写（主标题为你的原词），请核对",
+    "36 张作品图全部用上：卖点屏 4 + 品类卡 6 + 图墙 28（image23/7 兼作品类卡代表图与墙内图，属正常复用）",
+    "无套餐价格/交付周期/保障条款——建议补充后加 specs 参数屏",
+    "「常拍品类」「作品选」为代拟栏目名，可改",
+    "overlay 卖点图文字压在底部遮罩上，若某张图主体在底部（如 sp1 红台），需换 pos 或换图"
+  ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E0F7FA"/><stop offset="1" stop-color="#B2EBF2"/>
+  </linearGradient></defs>
+  <rect width="1024" height="768" fill="url(#g2)"/>
+  <rect x="72" y="96" width="880" height="576" rx="28" fill="#fff" opacity="0.9"/>
+  <rect x="72" y="96" width="880" height="64" rx="28" fill="#0E7C86"/>
+  <text x="512" y="420" font-family="sans-serif" font-size="54" font-weight="700" fill="#1B3B3F" text-anchor="middle">HTML 排版</text>
+  <text x="512" y="500" font-family="sans-serif" font-size="30" fill="#5d8085" text-anchor="middle">1080px 固定宽度 · CSS 控制字体色块（占位示例图）</text>
+</svg>

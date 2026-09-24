@@ -1,0 +1,56 @@
+{
+  "meta": { "name": "极光电解质水（示例）", "platforms": ["taobao", "xhs", "douyin"] },
+
+  "product": {
+    "positioning": "城市运动人群的轻补给",
+    "audience": "25-40 岁跑步与健身人群",
+    "coreScenes": ["晨跑", "健身房", "通勤", "露营"],
+    "sellingPoints": [
+      { "id": "sp1", "feature": "4-1-1 黄金电解质比", "benefit": "出汗后一口喝到位", "evidence": ["示例值，替换为真实配比检测数据"] },
+      { "id": "sp2", "feature": "0 糖 0 代糖", "benefit": "甜来自真实果汁，不心虚" }
+    ]
+  },
+
+  "content": {
+    "valuePromise": "出汗的事，交给极光",
+    "painLine": "运动水难喝，好喝的水不管用",
+    "screens": [
+      { "kind": "hero", "id": "hero", "copy": { "title": "出汗的事，交给极光", "sub": "0 糖果汁电解质水", "badge": "AURORA SPORTS" } },
+      { "kind": "pain", "id": "pain", "copy": { "title": "运动水难喝，好喝的水不管用", "body": "你值得一个都不用将就的选择" } },
+      { "kind": "sellingpoint", "id": "sp1", "ref": "sp1", "copy": { "title": "出汗掉的，它按缺的补", "sub": "4-1-1 黄金电解质比，一口喝到位", "overlay": true, "pos": "bl", "h": 480 } },
+      { "kind": "sellingpoint", "id": "sp2", "ref": "sp2", "copy": { "title": "甜，是果汁给的", "sub": "0 糖 0 代糖，配料表一眼读完" } },
+      { "kind": "compare", "id": "cmp", "copy": { "title": "和普通运动饮料差在哪", "head": ["极光", "普通运动饮料"], "rows": [["电解质","4-1-1 精准配比","凭经验添加"],["糖","0 糖","每瓶约 12 块方糖"],["配料表","5 行内读完","10+ 行添加剂"]], "win": "left" } },
+      { "kind": "scene", "id": "scene", "copy": { "title": "四种出汗时刻", "items": [{ "name": "晨跑", "note": "空腹出门前灌一口" }, { "name": "健身房", "note": "组间休息的仪式感" }, { "name": "通勤", "note": "三伏天挤地铁的自救" }, { "name": "露营", "note": "搭完帐篷的那瓶冰的" }] } },
+      { "kind": "review", "id": "review", "copy": { "title": "内测跑友说", "quotes": ["完赛第一补给，胃不闹脾气", "甜度刚好，不像在喝药"] } },
+      { "kind": "gallery", "id": "gallery", "copy": { "kicker": "WORKS", "title": "作品墙示例", "layout": "wall", "rows": [
+        { "cat": "场景一" }, ["../img/shot-2.svg", "../img/shot-3.svg"],
+        { "cat": "场景二" }, { "src": "../img/tall-1.svg", "h": 400, "pos": "50% 30%" } ] } },
+      { "kind": "process", "id": "process", "copy": { "title": "服务流程示例", "items": ["下单", "备货", "发货", "售后"], "cols": 2 } },
+      { "kind": "specs", "id": "specs", "copy": { "title": "产品参数" } },
+      { "kind": "certs", "id": "certs", "copy": { "title": "资质与检测" } },
+      { "kind": "close", "id": "close", "copy": { "title": "出汗的事，交给极光", "sub": "首发尝鲜装 6 瓶", "action": "联系方式：待补充（勿虚构）" } }
+    ]
+  },
+
+  "facts": {
+    "specs": {},
+    "certs": [],
+    "note": "示例契约：参数与资质故意留空，渲染应出「待核查/待补充」占位——这是防虚构执法路径。"
+  },
+
+  "style": {
+    "style": "xiaohongshu",
+    "palette": { "bg": "#F4F6F8", "ink": "#22303A", "accent": "#1F6FEB", "card": "#FFFFFF" },
+    "fontMood": "modern",
+    "knobs": { "lede_flank": false }
+  },
+
+  "assets": {
+    "hero": { "src": "generate", "prompt": "示例：清晨城市跑道+冰镇饮料特写，冷银蓝调，无文字" },
+    "sp1": { "src": "../img/shot-1.svg" },
+    "sp2": { "src": "placeholder" },
+    "scene": { "src": ["placeholder", "placeholder", "placeholder", "placeholder"] }
+  },
+
+  "openQuestions": ["价格与规格未定", "联系方式待用户提供", "参数/认证为示例空位，替换为研发数据", "示例占位图需换成实拍/生成图"]
+}

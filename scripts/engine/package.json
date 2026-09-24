@@ -1,0 +1,9 @@
+{
+  "name": "longimage-skill",
+  "private": true,
+  "version": "1.0.0",
+  "description": "竖长图生成流水线依赖（无头 Edge 驱动）；首次使用在本目录 npm install",
+  "dependencies": {
+    "playwright-core": "^1.46.0"
+  }
+}

@@ -1,0 +1,12 @@
+# 引擎依赖（首用 npm install 重装，不入库）
+node_modules/
+
+# 渲染产物（可复跑，不入库）
+pipeline/
+out-test/
+_render.html
+*.log
+
+# 真实案例的客户作品图与成品长图——涉隐私且体积大，仓库只留契约+README，图不推
+assets/case-photography/works/
+assets/case-photography/pipeline/
