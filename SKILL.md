@@ -79,7 +79,8 @@ node scripts/engine/render.js pipeline/config-taobao.json  # 逐平台出图
 1. **教训入规则**：本次被用户打回的设计（比例/对齐/断行/分类口径…），提炼成一句可执行纪律写进对应 reference（content-methods/projection-rules/design-rules），不写故事写规则；
 2. **能力入引擎**：新长出的编排手法补进 project.js/engine 成为屏型或开关，别让它停留在某份 config 里；
 3. **项目入案例**：整树收进 `assets/case-<品类名>/`（契约+config+成品+README 写清演示了什么、换产品抄哪段），下次同类单照抄骨架。素材包超 100M 时只保留契约引用的图；
-4. **版本入账**：SKILL.md changelog 记一行（改了什么、为什么），version 递增。
+4. **版本入账**：SKILL.md changelog 记一行（改了什么、为什么），version 递增；
+5. **推送远程**：本技能目录即 git 仓库（origin = https://github.com/koboldes/marketing-image-pipeline，main 分支）。`git add -A && git commit -m "<类型>: <摘要>" && git push`。直连 github.com 超时的机器上，push 前设代理：`export HTTPS_PROXY=http://127.0.0.1:7897`（Clash 端口，以实际为准）。案例客户图与 node_modules 已被 .gitignore 排除，勿 force 加回。
 
 ## 契约硬规则（project.js 机器执法，见 references/contract-schema.md）
 
